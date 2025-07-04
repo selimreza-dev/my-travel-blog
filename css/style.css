@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#header{
+    background-image: url('../images/60-dome-mosque.jpg');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#header h1 {
+    text-align: center;
+    /* line-height: 600px; */
+    font-size: 50px;
+    color: rgb(243, 79, 50);
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.747);
+    padding:20px;
+    border-radius: 10px;
+    
+}
